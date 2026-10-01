@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Neal Style Sandbox Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="game-container">
+    <canvas id="sandboxCanvas"></canvas>
+    <div id="ui-panel">
+      <h2>Elementen</h2>
+      <div id="element-buttons">
+        <button class="element-btn active" data-type="sand">Zand</button>
+        <button class="element-btn" data-type="water">Water</button>
+        <button class="element-btn" data-type="wall">Muur</button>
+        <button class="element-btn" data-type="fire">Vuur</button>
+        <button class="element-btn" data-type="wood">Hout</button>
+        <button class="element-btn" data-type="erase">Gom</button>
+      </div>
+      <button id="clear-btn">Legen</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
